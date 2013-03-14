@@ -30,7 +30,7 @@ Sample Usage:
 3. Now you can access your legacy tables using Django's ORM.
 
     #### Example for a table named legacy_database_table
-        from <app>.models import <LegacyDatabaseTable>
+        from models import LegacyDatabaseTable
 
 
 ####NOTE: 
