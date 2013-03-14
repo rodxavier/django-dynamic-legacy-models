@@ -26,6 +26,11 @@ Sample Usage:
         
         gen = ModelGenerator('db_key', globals(), table_name_filter=lambda x: x.startswith('dlm'))
         gen.generate_models()
+        
+3. Now you can access your legacy tables using Django's ORM.
+
+    #### Example for a table named legacy_database_table
+        from <app>.models import <LegacyDatabaseTable>
 
 
 ####NOTE: 
